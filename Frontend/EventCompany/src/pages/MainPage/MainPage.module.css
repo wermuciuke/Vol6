@@ -1,0 +1,14 @@
+.addNew {
+  margin: 10px auto;
+  display: block;
+}
+
+.addNew2 {
+  background-color: black;
+  color: gold;
+  margin: 10px auto;
+  display: block;
+  border-radius: 100%;
+  font-weight: bold;
+}
+

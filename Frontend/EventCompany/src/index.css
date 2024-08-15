@@ -1,0 +1,88 @@
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-color: black;
+  overflow: auto;
+}
+
+
+p,
+label,
+h1,
+h2,
+td {
+  color: rgb(212, 212, 212);
+}
+
+th {
+  color: orange;
+  font-weight: bold;
+}
+
+td,
+th {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+}
+
+a {
+  color: gold;
+  padding: 0px 5px;
+  text-decoration: none;
+}
+
+a:hover {
+  color:goldenrod;
+  padding: 0px 5px;
+}
+
+header {
+  background-color: black;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+}
+
+header img {
+  width: 200px;
+  padding: 20px;
+}
+
+header img:hover {
+  cursor: pointer;
+}
+
+.padding-20 {
+  padding: 20px;
+}
+
+.flex-sb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.margin-bot-10 {
+  margin-bottom: 10px;
+}
+
+button {
+  border: 0;
+  padding: 5px 10px;
+}
+
+button:hover {
+  background-color:gold;
+  cursor: pointer;
+}
+
+input {
+  margin-bottom: 10px;
+}
